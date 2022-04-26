@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   resources :products, only: [:index, :show]
 
   namespace :admin do
-  resources :categories, only: [:show, :index, :create]
+  resources :categories, only: [:show, :index, :create, :new]
   end
 
   resource :cart, only: [:show] do
