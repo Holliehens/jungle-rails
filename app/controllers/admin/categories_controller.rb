@@ -5,7 +5,7 @@ class Admin::CategoriesController < ApplicationController
     @categories = Category.order(id: :desc).all
   end
 
-  def new
+  def new    
     @category = Category.new
     puts "CATEGORY #{@category}"
   end
