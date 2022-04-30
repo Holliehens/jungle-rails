@@ -56,4 +56,5 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
-.DS_Store
+# Exclude every .DS_Store in every file
+*/.DS_Store
